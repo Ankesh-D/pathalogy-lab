@@ -1,0 +1,53 @@
+<nav id="sidebar" class="sidebar bg-light">
+    <div class="container-fluid">
+      <!-- Sidebar Header -->
+      <div class="sidebar-header py-3">
+        <h4 class="text-center">MyApp</h4>
+      </div>
+  
+      <!-- Sidebar Links -->
+      <ul class="nav flex-column">
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center" href="#">
+            <i class="fas fa-home me-2"></i>
+            Home
+          </a>
+        </li>
+  
+        <!-- Products with Collapsible Submenu -->
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center" data-bs-toggle="collapse" href="#productsSubmenu" aria-expanded="false">
+            <i class="fas fa-box me-2"></i>
+            Products
+            <i class="fas fa-chevron-down ms-auto"></i>
+          </a>
+          <ul class="collapse" id="productsSubmenu">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Product 2</a>
+            </li>
+          </ul>
+        </li>
+  
+        <!-- Cart -->
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center" href="#">
+            <i class="fas fa-shopping-cart me-2"></i>
+            Cart
+          </a>
+        </li>
+  
+        <!-- Profile -->
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center" href="#">
+            <i class="fas fa-user me-2"></i>
+            Profile
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
